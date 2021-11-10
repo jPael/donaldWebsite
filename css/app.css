@@ -1,0 +1,85 @@
+header {
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header {
+	padding: 2rem 1rem;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: #aa14f0;
+}
+.contentBody {
+	display: flex;
+}
+
+#menu {
+	width: 20%;
+	min-height: 100vh;
+	position: relative;
+	background-color: #bc8cf2;
+}
+#menuLogo {
+	font-size: 1.5rem;
+	padding: 1rem;
+	text-align: center;
+	color: #eeeeee;
+}
+.menuItems {
+	font-size: 1.5rem;
+	padding: 1rem;
+	border: 1px solid #aa14f0;
+	/* outline: #590083; */
+	outline-width: 1px;
+	color: #eeeeee;
+	cursor: pointer;
+}
+.content {
+	background: #eeeeee;
+	width: 100%;
+}
+#title {
+	background: #bc8cf2;
+	color: #eeeeee;
+	/* border: 1px solid black; */
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+#imgs {
+	text-align: center;
+	/* display: flex;
+	justify-content: space-around;
+	align-items: center;
+	white-space: pre-wrap;
+	border: 1px solid black; */
+}
+.contentIMG {
+	max-width: 30%;
+	max-height: 30%;
+	margin: 1.5rem;
+	box-shadow: 0 0 10px grey;
+	/* display: block; remove extra space below image */
+}
+
+.highlighted {
+	background-color: #d9b7ff;
+	color: black;
+}
+#footer {
+	/* position: absolute; */
+	bottom: 0;
+
+	display: block;
+	min-width: 20%;
+	/* text-align: center; */
+	padding: 1.3rem 1.5rem;
+
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #eeeeee;
+}
